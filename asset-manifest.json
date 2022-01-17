@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/scrimba-solo-project-1-digital-business-card/static/css/main.57b8f9d0.css",
+    "main.js": "/scrimba-solo-project-1-digital-business-card/static/js/main.a4177389.js",
+    "static/media/profile.jpg": "/scrimba-solo-project-1-digital-business-card/static/media/profile.895297545251f0db9053.jpg",
+    "index.html": "/scrimba-solo-project-1-digital-business-card/index.html",
+    "main.57b8f9d0.css.map": "/scrimba-solo-project-1-digital-business-card/static/css/main.57b8f9d0.css.map",
+    "main.a4177389.js.map": "/scrimba-solo-project-1-digital-business-card/static/js/main.a4177389.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57b8f9d0.css",
+    "static/js/main.a4177389.js"
+  ]
+}
