@@ -1,0 +1,149 @@
+$color-black1: #1c1c1c;
+$color-black2: #23252c;
+$social-color: #161619;
+$mid-color: #1a1b21;
+$span-color: #f3bf99;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	background-color: $color-black1;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Main-Body-Box {
+	width: 550px;
+	height: 868px;
+	background-color: $color-black2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.pfp {
+	height: 317px;
+	width: 317px;
+	margin: 44px 116px 0px 116px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.MidContentBody {
+	height: 399px;
+	width: 317px;
+	background-color: $mid-color;
+	display: block;
+	margin: -5px 116px;
+	color: #ffffff;
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	text-align: center;
+	padding: 21px;
+	display: flex;
+	flex-direction: column;
+	span {
+		color: $span-color;
+		font-weight: normal;
+		font-size: 12.8px;
+	}
+}
+
+.MidContentBody .web-link {
+	color: #ffffff;
+	font-size: 10.24px;
+	margin: 5px auto;
+	font-weight: normal;
+}
+
+.email {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 9px 13px 9px 11px;
+
+	position: absolute;
+	width: 115px;
+	height: 34px;
+	left: 151px;
+	top: 468px;
+
+	background: #ffffff;
+
+	border: 1px solid #d1d5db;
+	box-sizing: border-box;
+
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+
+	color: black;
+	a {
+		font-size: 14px;
+		color: black;
+	}
+}
+
+.linkedin {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 9px 13px 9px 11px;
+
+	position: absolute;
+	width: 115px;
+	height: 34px;
+	left: 283px;
+	top: 468px;
+
+	border: none;
+	background: #5093e2;
+
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+
+	color: white;
+	a {
+		font-size: 14px;
+		color: white;
+	}
+}
+
+.paras {
+	text-align: left;
+	margin: 100px 20px;
+	line-height: 15px;
+	p {
+		margin-bottom: 20px;
+	}
+}
+
+.fIcons {
+	height: 64px;
+	width: 317px;
+	background-color: $social-color;
+	color: #918e9b;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 0px 116px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
